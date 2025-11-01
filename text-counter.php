@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Text Counter Tool
-Plugin URI: #
+Plugin URI: https://github.com/dextorlobo1/text-counter
 Description: Character count, word count, and sentence count tool with shortcode [text_counter].
 Version: 1.0
 Author: Arun Sharma
