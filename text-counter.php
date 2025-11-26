@@ -1,11 +1,14 @@
 <?php
-/*
-Plugin Name: Text Counter Tool
-Plugin URI: https://github.com/dextorlobo1/text-counter
-Description: Character count, word count, and sentence count tool with shortcode [text_counter].
-Version: 1.0
-Author: Arun Sharma
-Author URI: https://imarun.me
+/**
+ * Plugin Name: Text Counter Tool
+ * Plugin URI: https://github.com/dextorlobo1/text-counter
+ * Description: Character count, word count, and sentence count tool with shortcode [text_counter].
+ * Version: 1.0
+ * Author: Arun Sharma
+ * Author URI: https://imarun.me
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * Text Domain: text-counter
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
