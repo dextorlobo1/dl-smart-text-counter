@@ -1,12 +1,21 @@
-# Plugin Name
+=== Text Counter Tool ===
+
+Contributors: dextorlobo
+Tags: textcounter, text counter
+Requires at least: 4.7
+Tested up to: 6.9
+Stable tag: 1.0
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Character count, word count, and sentence count tool with shortcode [text_counter].
 
 ## Installation
 
-1. Clone the repository.
-2. Place the plugin files in the appropriate directory.
-3. Activate the plugin in your IDE.
+1. Visit **Plugins > Add New**.
+2. Search for **Text Counter Tool**.
+3. Install and activate the Text Counter Tool plugin.
 
 ## Usage
 

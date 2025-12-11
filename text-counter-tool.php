@@ -8,7 +8,7 @@
  * Author URI: https://imarun.me
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Text Domain: text-counter
+ * Text Domain: text-counter-tool
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
