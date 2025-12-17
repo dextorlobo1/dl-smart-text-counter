@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: DL Smart Text Counter
- * Plugin URI: https://github.com/dextorlobo1/text-counter
+ * Plugin URI: https://github.com/dextorlobo1/dl-smart-text-counter
  * Description: Character count, word count, and sentence count tool with shortcode [dl_smart_text_counter].
  * Version: 1.0.1
  * Author: Arun Sharma
@@ -32,23 +32,23 @@ add_action( 'wp_enqueue_scripts', 'dl_stc_enqueue_scripts' );
 
 
 // Register shortcode
-function tc_counter_shortcode() {
+function dl_stc_counter_shortcode() {
 	ob_start(); ?>
 
-	<div id="tc-counter-wrapper">
-		<form id="tc-counter-form">
-			<textarea id="tc-text" rows="6" placeholder="<?php esc_attr_e( 'Enter text here...', 'dl-smart-text-counter' ); ?>"></textarea>
+	<div id="dl-stc-counter-wrapper">
+		<form id="dl-stc-counter-form">
+			<textarea id="dl-stc-text" rows="6" placeholder="<?php esc_attr_e( 'Enter text here...', 'dl-smart-text-counter' ); ?>"></textarea>
 			<br><br>
-			<button type="submit" id="tc-submit"><?php esc_html_e( 'Count', 'dl-smart-text-counter' ); ?></button>
+			<button type="submit" id="dl-stc-submit"><?php esc_html_e( 'Count', 'dl-smart-text-counter' ); ?></button>
 		</form>
 
-		<div id="tc-result">
-			<p><strong><?php esc_html_e( 'Characters:', 'dl-smart-text-counter' ); ?></strong><span id="tc-characters"></span></p>
-			<p><strong><?php esc_html_e( 'Words:', 'dl-smart-text-counter' ); ?></strong> <span id="tc-words"></span></p>
-			<p><strong><?php esc_html_e( 'Sentences:', 'dl-smart-text-counter' ); ?></strong> <span id="tc-sentences"></span></p>
+		<div id="dl-stc-result">
+			<p><strong><?php esc_html_e( 'Characters:', 'dl-smart-text-counter' ); ?></strong><span id="dl-stc-characters"></span></p>
+			<p><strong><?php esc_html_e( 'Words:', 'dl-smart-text-counter' ); ?></strong> <span id="dl-stc-words"></span></p>
+			<p><strong><?php esc_html_e( 'Sentences:', 'dl-smart-text-counter' ); ?></strong> <span id="dl-stc-sentences"></span></p>
 		</div>
 	</div>
 <?php 
 	return ob_get_clean();
 }
-add_shortcode( 'dl_smart_text_counter', 'tc_counter_shortcode' );
+add_shortcode( 'dl_smart_text_counter', 'dl_stc_counter_shortcode' );
