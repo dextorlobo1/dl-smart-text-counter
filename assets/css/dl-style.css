@@ -1,0 +1,15 @@
+#tc-counter-wrapper textarea {
+	width: 100%;
+}
+
+#tc-counter-wrapper button {
+	margin-top: 10px;
+}
+
+#tc-result {
+	margin-top: 20px;
+	background: #f7f7f7;
+	padding: 10px;
+	border: 1px solid #ddd;
+    display: none;
+}
