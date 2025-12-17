@@ -1,12 +1,12 @@
-#tc-counter-wrapper textarea {
+#dl-stc-counter-wrapper textarea {
 	width: 100%;
 }
 
-#tc-counter-wrapper button {
+#dl-stc-counter-wrapper button {
 	margin-top: 10px;
 }
 
-#tc-result {
+#dl-stc-result {
 	margin-top: 20px;
 	background: #f7f7f7;
 	padding: 10px;
