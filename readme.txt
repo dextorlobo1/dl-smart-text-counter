@@ -1,7 +1,7 @@
 === DL Smart Text Counter ===
 
 Contributors: dextorlobo
-Tags: textcounter, text counter
+Tags: text counter, word counter, character counter, shortcode
 Requires at least: 4.7
 Tested up to: 6.9
 Stable tag: 1.0.1
@@ -13,7 +13,7 @@ Character count, word count, and sentence count tool with shortcode [dl_smart_te
 
 == Description ==
 
-Use shortcode [dl_smart_text_counter] anywhere in posts or pages.
+Use the shortcode [dl_smart_text_counter] anywhere in posts or pages.
 It displays a textarea with a submit button.
 After submission, it shows:
 - Character count
@@ -28,13 +28,13 @@ After submission, it shows:
 
 == Usage ==
 
-Use the the shortcode [dl_smart_text_counter] anywhere in wordpress(pages, posts, custom posts) to count character, word, and sentence.
+Use the shortcode [dl_smart_text_counter] anywhere in WordPress (pages, posts, or custom post types) to count characters, words, and sentences.
 
 == Frequently Asked Questions ==
 
 = How do I use the plugin? =
 After activating the plugin, place the shortcode
-[dextorlobo_text_counter]
+[dl_smart_text_counter]
 in any post, page, or widget area. The text counter form will appear at that location.
 
 = Does the plugin store or save user text? =
@@ -45,9 +45,9 @@ Yes. You can use the shortcode multiple times on the same page or across differe
 
 == Features ==
 
-- Feature 1: Use shortcode.
-- Feature 2: Count character, word, and sentence.
-- Feature 3: No settings required.
+- Shortcode-based text counter
+- Counts characters, words, and sentences
+- No configuration or settings required
 
 == Configuration ==
 
@@ -56,6 +56,7 @@ No configuration required.
 == Contributing ==
 
 If you'd like to contribute to this plugin, please fork the repository and submit a pull request.
+- https://github.com/dextorlobo1/dl-smart-text-counter
 
 == Credits ==
 
